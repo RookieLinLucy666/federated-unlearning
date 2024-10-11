@@ -13,14 +13,6 @@ python -m pip install torchtext==0.11.0
 python -m pip install pandas scikit-learn torch_optimizer xgboost
 ```
 
-## Quick verification
-
-One-line code to perform quick verification of FedAvg, FedEraser, and Retrain on forget errors, MIA accuracy and BA accuracy.
-
-```
-sh script.sh
-```
-
 ## Key Settings
 ```
 --iid: iid 1, noniid 0
